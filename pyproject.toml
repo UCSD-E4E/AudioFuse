@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "audiofuse"
+version = "0.1.0"
+description = "FUSE driver for audio data. Intended to serve subclips from larger audio files"
+authors = ["Sean Perry"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fusepy = "^3.0.1"
+tinytag = "^2.0.0"
+mutagen = "^1.47.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
